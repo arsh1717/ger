@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('background-img.jpg');
+    font-family: 'Merriweather', serif;
+}
+@keyframes example {
+    from{display:block;}
+    to{display:none;}
+}
+.main-form{
+    position: relative;
+    width:30%;
+    height:60%;
+    border-color:black;
+    background-color: #fefae0;
+    padding:1em;
+    z-index:2;
+    border-radius:20px;
+    opacity:0.9;
+    transition: display 1s ease-out;
+}
+/* .rotate{
+    transform:rotate3d(0, -0.5, 0, 3.142rad);
+}
+.rotateby90{
+    transform:rotate3d(0, -0.5, 0, 1.571rad);
+} */
+
+
+.main-form h1{
+    text-align:center;
+    margin:0.8em 0;
+    font-size:1.4em;
+}
+.main-form form{
+    margin:0 1em;
+}
+
+.main-form .form-section{
+    margin-bottom:1em;
+    font-size:0.9em;
+}
+.form-section .u{
+    width:100%;
+    padding:0.4em;
+    font-size: 100%;
+}
+.main-form .submit-btn{
+    width:100%;
+    margin:0 auto;
+    border-radius:12px;
+    text-align:center;
+    padding:0.7em 1em;
+    background-color:#e63946;
+    color:#ffcdb2;
+    text-transform: uppercase;
+    border-color:#e63946;
+}
+.main-form .signup_link{
+    font-size:0.9em;
+    position:absolute;
+    bottom:10px;
+    margin-left:20%;
+}
+.signup_link span{
+    color:#0077b6;
+    cursor:pointer;
+}
+.signup_link span:hover{
+    color:#355070;
+    text-decoration: underline;
+}
+.hide{
+    display: none;
+}
+.paragraph{
+    color:#e63946;
+    margin:auto;
+    text-align:center;
+    font-size:1em;
+}
